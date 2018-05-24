@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+	<link rel="stylesheet" href="../mathscribe/jqmath-0.4.3.css">
+	
+	<script src="../mathscribe/jquery-1.4.3.min.js"></script>
+	<script src="../mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+	<!-- <script>M.MathPlayer = false; M.trustHtml = true;</script> -->
+
+
+
+
+	<title>Cuerpo</title>
+</head>
+<body>
+
+<b> Estructuras Algebraicas</b>
+
+<p> <b> Definicion 1.1 (Grupo) : </b> </p>
+<p> Un grupo es un conjunto <b>$&Lambda;$</b> un conjunto no vacio, junto con una operación binaria ($*$), que satisface las siguientes propiedades </p>
+<ul style="list-style-type:disc">
+    <li>Propiedades para $*$</li>
+    <ul style="list-style-type:circle">
+        <li> <p>Cerrado bajo $*$</p>
+            <p> &forall; &alpha;, &beta; &ni; <b>$&Lambda;$</b>, &alpha; * &beta; &ni; $&Lambda;$ </p>  </li>
+        <li> <p>Asociatividad </p>
+            <p> &forall; &alpha;, &beta; &gamma; &ni; <b>$&Lambda;$</b>, (&alpha; * &beta;) * &gamma; =  &alpha; * (&beta; * &gamma;) </p> </li>
+        <li> <p> Elemto neutro </p>
+            <p> &forall; &alpha; &ni;<b>$&Lambda;$</b> &Exists;! n : &alpha; * n = &alpha;  </p> </li>
+        <li> <p> Inverso </p>
+            <p> &forall; &alpha; &ni; <b>$&Lambda;$</b> &Exists; &beta; : &alpha; * &beta; = n  ,</p> </li>
+        <li> <p> Si cumple con la conmutatividad se dice que es un grupo abeliano </p>
+            <p> &forall; &alpha;,&beta; &ni; <b>$&Lambda;$</b>,  &alpha; * &beta; = &beta; * &alpha;  </p> </li>
+    </ul>
+</ul>
+
+
+<p> <b> Definicion 1.2 (Semigrupo) : </b> </p>
+<p> Un semigrupo es un conjunto <b>$&Lambda;$</b> no vacio, junto con una operacion binaria ($*$), que satisface las siguientes propiedades
+<ul style="list-style-type:circle">
+    <li> <p>Operacion interna</p>
+        <p> &forall; &alpha;, &beta; &ni; <b>$&Lambda;$</b> ; &alpha; $*$ &beta; &ni; &Lambda; </p>  </li>
+    <li> <p>Asociatividad </p>
+        <p> &forall; &alpha;, &beta; &gamma; &ni; <b>$&Lambda;$</b>, (&alpha; $*$ &beta;) $*$ &gamma; =  &alpha; $*$ (&beta; $*$ &gamma;) </p> </li>
+    <li> <p> Si cumple con la conmutatividad se dice que es un semigrupo abeliano </p>
+        <p> &forall; &alpha;,&beta; &ni; <b>$&Lambda;$</b>,  &alpha; $*$ &beta; = &beta; $*$ &alpha; </p> </li>
+</ul>
+</p>
+
+<p> <b> Definicion 1.3 (Anillo): </b> </p>
+<p> Sea $&Lambda;$ un conjunto no vacio y sean $+$ y $·$  dos operaciones binarias en <b>$&Lambda;$</b>. Se dice que el conjunto ($&Lambda;$, $+$, $·$ ), es un anillo si
+    se cumplen que (<b>$&Lambda;$</b>, $+$) se comporta como un grupo y (<b>$&Lambda;$</b>,$·$ ) se comporta como un semigrupo.  </p>
+
+
+<p> <b> Definicion 1.4 (Cuerpo) : </b> </p>
+<p> Un cuerpo es un anillo de división conmutativo, es decir,
+   un anillo conmutativo y unitario en el que todo elemento distinto de cero es invertible respecto
+   del producto. Por tanto un cuerpo es un conjunto K en el que se han definido dos operaciones, $+$ y $·$,
+    llamadas adición y multiplicación respectivamente, que cumplen las siguientes propiedades: </p>
+
+<ul style="list-style-type:circle">
+    <li> <p>La adición es conmutativa</p>
+        <p> &forall; &alpha; &beta; &ni; <b>$K$</b> ; &alpha; $+$ &beta; $=$ &beta; $+$ &alpha;  </p>  </li>
+    <li> <p>La adición es asociativa </p>
+        <p> &forall; &alpha;, &beta; &gamma; &ni; <b>$K$</b>, (&alpha; $+$ &beta;) $+$ &gamma; =  &alpha; $+$ (&beta; $+$ &gamma;) </p> </li>
+    <li> <p> Elemento neutro (adición) </p>
+        <p> &exist;! 0 &ni; <b>$K$</b> : &alpha; + 0 = &alpha;,  &forall; &alpha; &ni; <b>$K$</b> </p> </li>
+    <li> <p> Inverso (adición) </p>
+        <p> &forall; &alpha; <b>$K$</b>   &exist;! $-&alpha;$ : $&alpha; + (-&alpha;)$ = 0  </p> </li>
+    <li> <p> La multiplicación es conmutativa </p>
+        <p> &forall; &alpha; &beta; &ni; <b>$K$</b> ; &alpha;&beta; $=$ &beta;&alpha;  </p>  </li>
+    <li> <p>La multiplicación es asociativa </p>
+        <p> &forall; &alpha;, &beta; &gamma; &ni; <b>$K$</b>, (&alpha; $*$ &beta;) $*$ &gamma; =  &alpha; $*$ (&beta; $*$ &gamma;) </p> </li>
+    <li> <p> Elemento neutro (multiplicación) </p>
+        <p> &exist;! 1 &ni; <b>$K$</b> : &alpha;1 = &alpha;,  &forall; &alpha; &ni; <b>$K$</b> </p> </li>
+    <li> <p> Inverso </p>
+        <p> &forall; &alpha; <b>$K$</b> : &alpha; &ne; 0  &exist;! $&alpha;^{-1}$ : $&alpha;&alpha;^{-1}$ = 1  </p> </li>
+    <li> <p> La multiplicacion es distributiva con respecto a la suma </p>
+        <p> &forall; &alpha;, &beta; &gamma; &ni; <b>$K$</b>, &gamma;(&alpha; $+$ &beta;) =  &alpha;&gamma; $+$ &beta;&gamma;  </p> </li>
+</ul>
+
+
+<p>Ejemplos de Cuerpo: </p>
+
+<ul style="list-style-type:circle">
+    <li> Los numeros Racionales </li>
+    <li> Los numeros Complejos </li>
+    <li> Los numeros Reales </li>
+</ul>
+
+<p> Demostración que los numeros complejos son un cuerpo </p>
+
+<p> Sea &#8450;, el conjunto de los numeros complejos. representados de la forma $&alpha; + i &beta;$; &alpha;,&beta; &ni; &#8477;. </p>
+<p> Donde &#8477;, es el conjuto de numeros reales </p>
+<ul style="list-style-type:circle">
+    <li> <p>La adición conmutativa</p>
+           <p> $( &alpha;_{1} + i &beta;_{1} ) +  (&alpha;_{2} + i &beta;_{2} ) =   &alpha;_{1}+&alpha;_{2} + i( &beta;_{1} + &beta;_{2})  $</p>
+           <p> $                                                                = &alpha;_{2}+&alpha;_{1} + i( &beta;_{2} + &beta;_{1}) $</p>
+           <p> $  = (&alpha;_{2}+i &beta;_{2}) + (&alpha;_{1} + i &beta;_{1})$        &#9605; </p>
+    <li> <p>La adición es asociativa </p>
+        <p> $[(&alpha;_{1} + i &beta;_{1} ) +  (&alpha;_{2} + i &beta;_{2})] (&alpha;_{3} + i &beta;_{3} ) =  &alpha;_{1}+&alpha;_{2}+&alpha;_{3} + i( &beta;_{1} + &beta;_{2}+ &beta;_{3} ) $ </p>
+        <p> $ =  (&alpha;_{1}+ i &beta;_{1})  +   &alpha;_{2}  +&alpha;_{3} + i(&beta;_{2}+ &beta;_{3} ) $ </p>
+        <p> $= (&alpha;_{1}+ i &beta;_{1})  +   (&alpha;_{2}+ i&beta;_{2}) + (&alpha;_{3} + i&beta;_{3}) $ </p>
+         <p> $=  (&alpha;_{1}+ i &beta;_{1})  +  [ (&alpha;_{2}+ i&beta;_{2})  + (&alpha;_{3} + i&beta;_{3}) ] $ &#9605; </p>
+    </li>
+    <li> <p> Elemento neutro </p>
+        <p> $( &alpha; + i &beta; ) +  (0 + i 0 ) =   &alpha;+0 + i( &beta; + 0) =  &alpha; + i &beta; $   &#9605; </p>
+    </li>
+    <li> <p> Inverso (adición) </p>
+        <p> $( &alpha; + i &beta; ) + ( - (&alpha; + i &beta;) ) =   &alpha;-&alpha;+ i( &beta; - &beta;) =  0 + i0 = 0 $   &#9605; </p>
+    <li> <p> La multiplicación es conmutativa </p>
+        <p> $(&alpha;_{1} + i &beta;_{1} ) * (&alpha;_{2} + i &beta;_{2} ) =   &alpha;_{1}&alpha;_{2} + i( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{2} &beta;_{1} &beta;_{2}   $</p>
+        <p> $ (&alpha;_{2} + i &beta;_{2} ) *  ( &alpha;_{1} + i &beta;_{1} ) =   &alpha;_{2}&alpha;_{1} + i( &alpha;_{2}&beta;_{1} + &beta;_{2}&alpha;_{1}) +  i^{2} &beta;_{2} &beta;_{1}   $</p>
+        <p> $ &alpha;_{1}&alpha;_{2} + i( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{2} &beta;_{1} &beta;_{2} =   &alpha;_{2}&alpha;_{1} + i( &alpha;_{2}&beta;_{1} + &beta;_{2}&alpha;_{1}) +  i^{2} &beta;_{2} &beta;_{1}   $</p>
+        <p> &there4; $( &alpha;_{1} + i &beta;_{1} ) * (&alpha;_{2} + i &beta;_{2} ) =  (&alpha;_{2} + i &beta;_{2} ) *  ( &alpha;_{1} + i &beta;_{1} ) $  &#9605; </p>
+    <li> <p>La multiplicación es asociativa </p>
+    <p>$ [(&alpha;_{1} + i &beta;_{1} ) * (&alpha;_{2} + i &beta;_{2})] *(&alpha;_{3} + i &beta;_{3}) = [&alpha;_{1}&alpha;_{2} + i( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{2} &beta;_{1} &beta;_{2}]  * (&alpha;_{3} + i &beta;_{3})  $</p>
+    <p>$   = &alpha;_{1}&alpha;_{2}&alpha;_{3} + i&alpha;_{2}( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{2}&alpha;_{2}&beta;_{1} &beta;_{2}  + i&alpha;_{1}&alpha;_{2}&beta;_{3} + i^{2}&beta;_{3}( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{3}&beta;_{3}&beta;_{1} &beta;_{2}  $</p>
+    <p>$ (&alpha;_{1} + i &beta;_{1} ) * [(&alpha;_{2} + i &beta;_{2}) *(&alpha;_{3} + i &beta;_{3})] = (&alpha;_{1} + i &beta;_{1}) * [&alpha;_{2}&alpha;_{3} + i( &alpha;_{2}&beta;_{3} + &beta;_{3}&alpha;_{2}) +  i^{2} &beta;_{2} &beta;_{3}]   $ </p>
+    <p>$   = &alpha;_{1}&alpha;_{2}&alpha;_{3} + i&alpha;_{2}( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{2}&alpha;_{2}&beta;_{1} &beta;_{2}  + i&alpha;_{1}&alpha;_{2}&beta;_{3} + i^{2}&beta;_{3}( &alpha;_{1}&beta;_{2} + &beta;_{1}&alpha;_{2}) +  i^{3}&beta;_{3}&beta;_{1} &beta;_{2}  $</p>
+    <p>$ &there4; [(&alpha;_{1} + i &beta;_{1} ) * (&alpha;_{2} + i &beta;_{2})] *(&alpha;_{3} + i &beta;_{3}) = (&alpha;_{1} + i &beta;_{1} ) * [(&alpha;_{2} + i &beta;_{2}) *(&alpha;_{3} + i &beta;_{3})] $ &#9605; </p>
+    </li>
+    <li> <p> Elemento neutro (multiplicación) </p>
+        <p> $(&alpha; + i &beta; ) * (1 + i(0)) =  &alpha; + i &beta;  + 0 &alpha; +  0 i &beta; =  &alpha; + i &beta;$   &#9605;</p>
+    </li>
+    <li> <p> Inverso </p>
+        <p> $(&alpha; + i &beta; ) * (&alpha; + i &beta; )^{1} = 1$  &#9605; </p>
+    </li>
+    <li> <p> La multiplicacion es distributiva con respecto a la suma </p>
+        <p> $(&alpha;_{1} + i &beta;_{1} ) * [(&alpha;_{2} + i &beta;_{2} )+(&alpha;_{3} + i &beta;_{3} ) ] =  (&alpha;_{1} + i &beta;_{1} ) * [(&alpha;_{2} + &alpha;_{3} ) + i ( &beta;_{3} + &beta;_{2}) ]  $  </p>
+        <p> $ =  &alpha;_{1}(&alpha;_{2} + &alpha;_{3}) + i&alpha;_{1}( &beta;_{3} + &beta;_{2}) ]  + i &beta;_{1}(&alpha;_{2} + &alpha;_{3}) + i^{2}&beta;_{1}( &beta;_{3} + &beta;_{2})   $  </p>
+        <p> $ =  &alpha;_{1}&alpha;_{2} + i &beta;_{1}&alpha;_{2} +  i^{2}&beta;_{1}&beta;_{2} + &alpha;_{1}&alpha;_{3} + i&alpha;_{1}&beta;_{3} +  i^{2}&beta;_{1}&beta;_{3}  $  </p>
+        <p> $ = (&alpha;_{1} + i &beta;_{1} )* (&alpha;_{2} + i &beta;_{2} ) + (&alpha;_{1} + i &beta;_{1} )*(&alpha;_{3} + i &beta;_{3} )   $  &#9605; </p>
+    </li>
+</ul>
+
+
+
+
+</body>
+</html>

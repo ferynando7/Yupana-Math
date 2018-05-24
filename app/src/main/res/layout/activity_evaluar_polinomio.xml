@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zoftcode.yupana.EvaluarPolinomio">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/barevalpoli"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/backevalpoli"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.zoftcode.yupana.EvaluarPolinomio"
+        tools:showIn="@layout/activity_evaluar_polinomio">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="@drawable/shadow_titulo"
+                        android:lines="1"
+                        android:text="Grado del polinomio:"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="21sp"
+                        android:layout_weight="8"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etGrado"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/shadow_barrasuperior"
+                        android:inputType="number"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/btnOK"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@drawable/shadow_button_ok"
+                        android:text="Ok"
+                        android:textAllCaps="false"
+                        android:textColor="#ffff"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="8dp"
+
+                    android:alpha="0.8"
+                    android:background="#cc6148"
+                    android:text="Coeficientes:"
+                    android:textColor="#ffffff"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollView"
+                    android:layout_width="match_parent"
+                    android:minHeight="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fillViewport="true"
+                    android:alpha="0.8">
+
+
+                    <LinearLayout
+
+                        android:id="@+id/poly"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="#cc6148"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+
+                <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:background="#cc6148"
+                    android:alpha="0.8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                </LinearLayout>
+
+-->
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="@drawable/shadow_titulo"
+                        android:lines="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="7dp"
+                        android:text="Puntos a evaluar:"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="21sp"
+                        android:layout_weight="8"
+                        android:textStyle="bold" />
+
+
+
+                    <Button
+                        android:id="@+id/btnAnadir"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/shadow_button_ok"
+                        android:text="+"
+                        android:textAllCaps="false"
+                        android:textColor="#ffff"
+                        android:textSize="35sp" />
+
+
+                    <Button
+                        android:id="@+id/btnQuitar"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/shadow_button_ok"
+                        android:text="-"
+                        android:textAllCaps="false"
+                        android:textColor="#ffff"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:minHeight="100dp"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:id="@+id/tablaPuntos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+
+                    <Button
+                        android:id="@+id/btnEvaluar"
+                        android:layout_width="140dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/shadow_gray"
+                        android:text="Evaluar"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="25dp" />
+
+
+                    <Button
+                        android:id="@+id/btnReset"
+                        android:layout_width="140dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/shadow_gray"
+                        android:layout_gravity="center"
+                        android:text="Reset"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="25dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

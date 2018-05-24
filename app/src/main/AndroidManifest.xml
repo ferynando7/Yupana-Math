@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zoftcode.yupana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/MyThemeNoBar">
+
+        <!-- android:theme="@style/AppTheme"> -->
+        <activity
+            android:name=".EncontrarRaices"
+            android:label="@string/title_activity_encontrar_raices"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeNoBar" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeNoBar">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaFunciones"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeNoBar">
+            >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones"
+            android:theme="@style/MyThemeNoBar">
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".EvaluarPolinomio"
+            android:label="@string/title_activity_evaluar_polinomio"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones"
+            android:theme="@style/MyThemeNoBar">
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".calcuScreen"
+            android:label="@string/title_activity_calcu_screen"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones"
+            android:theme="@style/MyThemeNoBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".SistemaEcuaciones"
+            android:label="@string/title_activity_sisEcu"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".Estadistica"
+            android:label="@string/title_activity_estadistica"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".GuiaTeorica"
+            android:label="@string/title_activity_guia_teorica"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ListaFunciones">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.ListaFunciones" />
+        </activity>
+        <activity
+            android:name=".gEcuLin"
+            android:label="@string/title_activity_g_ecu_lin"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".GuiaTeorica">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.GuiaTeorica" />
+        </activity>
+        <activity
+            android:name=".g_21EstAlg"
+            android:label="@string/title_activity_g_21_est_alg"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".gEcuLin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.gEcuLin" />
+        </activity>
+        <activity
+            android:name=".g_22SisLin"
+            android:label="@string/title_activity_g_22_sis_lin"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".gEcuLin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.gEcuLin" />
+        </activity>
+        <activity
+            android:name=".g_23Mat"
+            android:label="@string/title_activity_g_23_mat"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".gEcuLin">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zoftcode.yupana.gEcuLin" />
+        </activity>
+    </application>
+
+</manifest>

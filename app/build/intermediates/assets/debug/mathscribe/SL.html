@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+    <link rel="stylesheet" href="../mathscribe/jqmath-0.4.3.css">
+
+    <script src="../mathscribe/jquery-1.4.3.min.js"></script>
+    <script src="../mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+    <!-- <script>M.MathPlayer = false; M.trustHtml = true;</script> -->
+
+
+
+
+    <title>Cuerpo</title>
+</head>
+<body>
+
+<b> Sistemas Lineales </b>
+
+<p> <b> Definicion 2.1 (Sistema Lineal) : </b> </p>
+<p> Sea &#8497; un cuerpo. Se considera al problema de encontrar n escalares $A_{ij},x_{j} &ni;$ &#8497; : $i=1,...,m$ $j=1,...n$ tales que
+    satisfagan  condiciones  </p>
+<ul style="list-style-type:disc">
+
+        <p> $A_{11}x_{1} +  A_{12}x_{2} +  &hellip; + A_{1n}x_{n} = y_{1}$  </p>
+    <p> $A_{21}x_{2} +  A_{12}x_{2} +  &hellip; + A_{1n}x_{n} = y_{1}$  </p>
+    <p>  &#8285; &#8192; &#8192; + &#8192; &#8285;  &#8192;  + &#8192; &#8192;  +  &#8192; &#8285; &#8192; = &#8192;  &#8285;  </p>
+    <p> $A_{m1}x_{1} +  A_{m2}x_{2} +  &hellip; + A_{mn}x_{n} = y_{m}$  </p>
+    </ul>
+<p> Donde los $y_{i} &ni;$  &#8497;  ,  $&#8192; i=1,...,m$. A esto se le llama <b>  Sistema de m ecuaciones lineales con n incognitas.</b> </p>
+
+<p> <b> Definicion 2.2 (Solucion del Sistema Lineal) : </b> </p>
+<p> Sea un sistema lineal de m ecuaciones lineales con n incognitas con elemento en el cuerpo &#8497;. Se cosidera solucion a una n-tupla ($x_{1},....,x_{n}$) de elementos de &#8497;
+    que satisface cada una de las ecuaciones del sistema lineal</p>
+
+<p> <b> Definicion 2.3 (Sistema Lineal Homogeneo) : </b> </p>
+<p> Sea un sistema lineal de m ecuaciones lineal con n incognitas con elmentos en el cuerpo &#8497;. Se dice que es un sistmea
+ homogeneo si $ &forall;i,  &#8192;  y_{i} &ni;$ &#8497; : $y_{i}=0$  quedando de la forma </p>
+<ul style="list-style-type:disc">
+
+    <p> $A_{11}x_{1} +  A_{12}x_{2} +  &hellip; + A_{1n}x_{n} = 0$  </p>
+    <p> $A_{21}x_{1} +  A_{12}x_{2} +  &hellip; + A_{1n}x_{n} = 0$  </p>
+    <p>  &#8285; &#8192; &#8192; + &#8192; &#8285;  &#8192;  + &#8192; &#8192;  +  &#8192; &#8285; &#8192; = &#8192;  &#8285;  </p>
+    <p> $A_{m1}x_{1} +  A_{m2}x_{2} +  &hellip; + A_{mn}x_{n} = 0$  </p>
+</ul>
+
+<p> Una de las formas de resolver este tipo de sistema lineales es mediante eliminacion. </p>
+
+<p><b> Ejemplo  2.1 </b>  </p>
+<ul style="list-style-type:disc">
+<p> $2x_{1} +  x_{2}  = 5$  </p>
+<p>  $x_{1} - x_{2}   = 1$  </p>
+</ul>
+
+<p>  De la primera ecuacion obtenemos que $x_{2} = 5 - 2x_{1}$, entonces la segunda ecuacion ahora es $x_{1} - 5 + 2x_{1} = 1$  </p>
+<p>  Resolviendo la ecuacion tenemos $x_{1}= 2$, entonces $x_{2}=1$ </p>
+
+<p> Ahora supongamos que tenemos $c_{j} &ni;$ &#8497;, $j=1,...,m$ coeficientes que multiplican a la j-esima ecuacion en el sistema general descrito
+ en la definición 2.1. A esto se le llama combinación lineal de ecuaciones. Evidentemente, cualquier solucion del sistema 2.1 sera tambien solucion del
+ nuevo sistema que es una combinacion lineal</p>
+
+<p> El lector puede comprobar que el siguiente sistema tiene solucion $x_{1}= 2 y x_{2}=1$ debido a que es
+    una combinacion lineal del anteior sistema</p>
+<ul style="list-style-type:disc">
+    <p> $10x_{1} + 5 x_{2}  = 25$  </p>
+    <p>  $100x_{1} - 100x_{2}   = 100$  </p>
+</ul>
+
+<p> <b> Teorema 2.1: </b> </p>
+<p> Sistemas equivalentes de ecuaciones lineales tienen exactamente las mismas soluciones. </p>
+
+</body>
+</html>

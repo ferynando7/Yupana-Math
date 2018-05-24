@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zoftcode.yupana.EncontrarRaices">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+
+            android:layout_width="match_parent"
+            android:titleTextColor="#ffffff"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/barsolpoli"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/backsolpoli"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.zoftcode.yupana.EncontrarRaices"
+        tools:showIn="@layout/activity_encontrar_raices">
+
+        <!--android:background="#c4c2a3"-->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:alpha="0.8"
+                    android:background="@drawable/shadow_titulo_encontrar_raices"
+                    android:lines="1"
+                    android:text="Grado del polinomio:"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="21sp"
+                    android:layout_weight="8"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etGrado"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/shadow_barrasuperior"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnOK"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/shadow_button_ok"
+                    android:text="Ok"
+                    android:textAllCaps="false"
+                    android:textColor="#ffff"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="8dp"
+                android:alpha="0.8"
+                android:background="#c4b930"
+                android:text="Coeficientes:"
+                android:textColor="#ffffff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:fillViewport="true"
+                android:layout_marginBottom="10dp"
+                android:background="#c4b930"
+                android:alpha="0.7">
+
+            <LinearLayout
+                android:id="@+id/poly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="130dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#918427"
+            android:alpha="0.8">
+        </TextView>
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            >
+
+            <Button
+                android:id="@+id/btnResolver"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:background="@drawable/shadow_gray"
+                android:text="Evaluar"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shadow_gray"
+                android:text="Reset"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+
+        <!--                    android:background="#353535"-->
+
+    </LinearLayout>
+
+</ScrollView>
+
+    </LinearLayout>
+
+
+
+    </android.support.design.widget.CoordinatorLayout>

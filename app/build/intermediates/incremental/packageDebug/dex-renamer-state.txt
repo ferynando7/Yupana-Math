@@ -1,0 +1,7 @@
+#Wed Oct 18 12:02:29 ECT 2017
+base.0=/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_39464b9b8cef96db8792374e2fa4ff3beefd537d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ec32dbd9b7a1f4dc84000e4a156544c63c3b4cf7/classes.dex
+base.1=/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ec32dbd9b7a1f4dc84000e4a156544c63c3b4cf7
+file.0=/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_39464b9b8cef96db8792374e2fa4ff3beefd537d/classes.dex

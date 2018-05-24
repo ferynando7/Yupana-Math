@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html xml:lang="es" > 
+<head><title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html --> 
+<meta name="src" content="matrices.tex"> 
+<meta name="date" content="2017-09-30 15:46:00"> 
+<link rel="stylesheet" type="text/css" href="matrices.css"> 
+</head>
+
+<body>
+   <h3 class="likesectionHead"><a 
+ id="x1-1000"></a>Matrices</h3>
+<!--l. 48--><p class="noindent" >Sea un sistema lineal de la forma.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-1001r1"></a>
+   <center class="math-display" >
+<img 
+src="matrices0x.png" alt=" A 11x 1 + A12x2 + &#x22C5;&#x22C5;&#x22C5; + A 1nxn = y1
+ A 21x 1 + A22x2 + &#x22C5;&#x22C5;&#x22C5; + A 2nxn = y2
+
+           ...  +   ...  +    +...= ...
+
+Am 1x 1 + Am2x2 + &#x22C5;&#x22C5;&#x22C5; + Amnxn = ym
+" class="math-display" ></center></td><td class="equation-label">(1)</td></tr></table>
+<!--l. 58--><p class="nopar" >
+<!--l. 60--><p class="indent" >   Este se lo puede expresar en forma matricial.
+   <table 
+class="equation"><tr><td><a 
+ id="x1-1002r2"></a>
+   <center class="math-display" >
+<img 
+src="matrices1x.png" alt="Å ò  = ô
+" class="math-display" ></center></td><td class="equation-label">(2)</td></tr></table>
+<!--l. 64--><p class="nopar" >
+<!--l. 66--><p class="indent" >   Donde,
+   <center class="par-math-display" >
+<img 
+src="matrices2x.png" alt="    &#x230A;           &#x230B;
+    |||A 11  &#x22C5; A 1n|||
+Å = ||||  ..      .. ||||
+    ||&#x2308;  .      . ||&#x2309;
+     Am 1  &#x22C5; Amn
+
+" class="par-math-display" ></center>
+<!--l. 75--><p class="nopar" >
+<!--l. 77--><p class="indent" >   Es la matriz de coe<span 
+class="txmi-x-x-120">f </span>icientes del sistema. Donde cada <span 
+class="txmi-x-x-120">A</span><sub><span 
+class="txmi-x-x-80">ij</span></sub>, <span 
+class="txmi-x-x-120">i </span>= 1<span 
+class="txmi-x-x-120">,...,m </span>y <span 
+class="txmi-x-x-120">j </span>= 1<span 
+class="txmi-x-x-120">,...n</span>. Creando asi una
+matriz <span 
+class="txi-x-x-120">m x n </span>sobre algun cuerpo K.
+   <center class="par-math-display" >
+<img 
+src="matrices3x.png" alt="     &#x230A;|X1&#x230B;|
+     ||||| ..|||||
+ò  = |||&#x2308; .|||&#x2309;
+      Xn
+" class="par-math-display" ></center>
+<!--l. 85--><p class="nopar" >
+<!--l. 87--><p class="indent" >   Es la matriz de n x 1 de incognitas. Finalmente,
+   <center class="par-math-display" >
+<img 
+src="matrices4x.png" alt="     &#x230A;  &#x230B;
+     ||Y1||
+ô  = |||||.. |||||
+     ||&#x2308;. ||&#x2309;
+      Ym
+" class="par-math-display" ></center>
+<!--l. 95--><p class="nopar" >
+<!--l. 97--><p class="noindent" >
+   <h3 class="sectionHead"><span class="titlemark">1.    </span> <a 
+ id="x1-20001"></a>Operaciones Elementales</h3>
+<!--l. 99--><p class="noindent" >Para poder resolver este sistema lineal en forma matricial es importante considerar las siguientes
+operaciones elementales fila en una matriz n x m, sobre el cuerpo K.
+      <ul class="itemize1">
+      <li class="itemize">Multiplicacion de una fila de A por un escalar no nulo c.
+      </li>
+      <li class="itemize">Remplazo de la r-éesima fila de A por la fila r máas c veces la fila s, donde c es cualquier
+      escalar no nulo y r &ne; s
+      </li>
+      <li class="itemize">Intercambio de dos filas de A.</li></ul>
+<!--l. 107--><p class="indent" >   Estas operaciones pueden ser expresadas en terminos de funciones <span 
+class="txmi-x-x-120">e</span>, asociada a cada matris m x n A.
+Estas funciones se las puede describir en la siguiente forma.
+      <ul class="itemize1">
+      <li class="itemize"><span 
+class="txmi-x-x-120">e</span>(<span 
+class="txmi-x-x-120">A</span><sub><span 
+class="txmi-x-x-80">ij</span></sub>) = <span 
+class="txmi-x-x-120">A</span><sub><span 
+class="txmi-x-x-80">ij</span></sub> si <span 
+class="txmi-x-x-120">i </span><span 
+class="txsyc-x-x-120">&#x21D4; </span><span 
+class="txmi-x-x-120">r</span>, <span 
+class="txmi-x-x-120">e</span>(<span 
+class="txmi-x-x-120">A</span><sub><span 
+class="txmi-x-x-80">ij</span></sub>) = <span
+class="txmi-x-x-120">c </span><span 
+class="txsy-x-x-120">&#x22C5; </span><span 
+class="txmi-x-x-120">A</span><sub><span 
+class="txmi-x-x-80">rj</span></sub>
+
+      </li>
+      <li class="itemize">Remplazo de la r-ésima fila de A por la fila r más c veces la fila s, donde c es cualquier
+      escalar no nulo y r&ne;s
+      </li>
+      <li class="itemize">Intercambio de dos filas de A.</li></ul>
+    
+</body></html> 
+
+
+

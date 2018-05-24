@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d8508c353eff4f56d441f40bd86bd66298e22cf3">
+        <dex dex="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_39464b9b8cef96db8792374e2fa4ff3beefd537d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ferynando7/AndroidStudioProjects/Yupana/app/libs/JMathTeX-0.7pre.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f22f90738f4d9482e0ea1d450699b3d304f7f851">
+        <dex dex="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/2/JMathTeX-0.7pre_424285b0b214520f467b42dedba8ad11fb1dde6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ec32dbd9b7a1f4dc84000e4a156544c63c3b4cf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ferynando7/AndroidStudioProjects/Yupana/app/libs/javaluator-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2858833d5416801d8df6928ef4a9c9acb5e289e3">
+        <dex dex="/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dex/debug/folders/1000/2/javaluator-3.0.1_de8e260e2774c0aa5d0a072c38a5e9f2da94dff4/classes.dex" />
+    </item>
+
+</items>

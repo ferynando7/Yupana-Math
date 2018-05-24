@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/550ba32bb7819d98fde34410e74cdd2d/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Thu May 24 08:57:41 ECT 2018
+base.0=/home/ferynando7/AndroidStudioProjects/Yupana/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

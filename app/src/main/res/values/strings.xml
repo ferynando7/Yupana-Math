@@ -1,0 +1,112 @@
+<resources>
+
+
+    <!--Soluciones Matematicas-->
+    <string name="app_name">Yupana</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="instruccion">Inserte los coeficientes del polinomio en orden descendente separados por coma:</string>
+    <string name="polinomio">Polinomio</string>
+    <string name="punto">Punto</string>
+    <string name="evaluar">Evaluar</string>
+    <string name="valor">Valor</string>
+    <string name="evaluar_pol">Evaluar polinomios</string>
+    <string name="inicio">Empezar</string>
+    <string name="insertar_coefs">Inserte coeficientes en orden descendente separados por coma</string>
+    <string name="findroots">Encontrar raíces</string>
+    <string name="raices">Raíces</string>
+    <string name="camposVacios">Ha dejado campos vacíos.</string>
+    <string name="esperar">Espere un momento por favor....</string>
+    <string name="help">Ayuda</string>
+
+    <string name="title_activity_lista_funciones">Elige una opción</string>
+    <string name="title_activity_encontrar_raices">Encontrar Raíces</string>
+    <string name="title_activity_splash">Yupana</string>
+    <string name="title_activity_estadistica">Estadística Básica</string>
+    <string name="title_activity_sisEcu">Sistemas de ecuaciones</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="title_activity_evaluar_polinomio">Evaluar Polinomio</string>
+    <string name="title_activity_calcu_screen">Calculadora</string>
+    <string name="title_activity_guia_teorica">Guía Teórica</string>
+
+
+    <string name="paginaPrincipal">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="listaFunciones">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="encontrarRaices">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="evaluarPolinomios">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <!--Calculadora-->
+
+    <!--Parte números calculadora-->
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btnDEL">DEL</string>
+    <string name="btnAC">AC</string>
+
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btnPor">x</string>
+    <string name="btnDiv">&#247;</string>
+
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btnMas">+</string>
+    <string name="btnMenos">-</string>
+
+    <string name="btn0">0</string>
+    <string name="btnDecimalPoint">.</string>
+    <string name="btnPorDiezPowered">x10<sup><small>x</small></sup></string>
+    <string name="btnAns">Ans</string>
+    <string name="btnIgual">=</string>
+
+
+    <!-- Parte uno de calculadora -->
+    <string name="btnSquare"><i>x</i><sup><small>2</small></sup></string>
+    <string name="btnCube">x<sup><small>3</small></sup></string>
+    <string name="btnNPower">x<sup><small>n</small></sup></string>
+    <string name="btnInvPower">x<sup><small>-1</small></sup></string>
+    <string name="btnFact">x!</string>
+
+    <string name="btnSqrt">&#8730;</string>
+    <string name="btnCrt"><sup><small>3</small></sup>&#8730;</string>
+    <string name="btnNRoot"><sup><small>n</small></sup>&#8730;</string>
+    <string name="btnOpenPar">(</string>
+    <string name="btnClosePar">)</string>
+
+    <string name="btnPi">&#960;</string>
+    <string name="btnExp">&#8495;<sup><small>x</small></sup></string>
+    <string name="btn10Power">10<sup><small>x</small></sup></string>
+    <string name="btnComma">,</string>
+    <string name="btnForward">1 de 2</string>
+
+
+    <!-- Parte dos de calculadora -->
+    <string name="btnSin">sin</string>
+    <string name="btnCos">cos</string>
+    <string name="btnTan">tan</string>
+    <string name="btnLog10">log<sub><small>10</small></sub></string>
+    <string name="btnDeg">Deg</string>
+
+    <string name="btnInvSin">sin<sup><small>-1</small></sup></string>
+    <string name="btnInvCos">cos<sup><small>-1</small></sup></string>
+    <string name="btnInvTan">tan<sup><small>-1</small></sup></string>
+    <string name="btnLog_n">log<sub><small>n</small></sub></string>
+    <string name="btnLn">ln</string>
+
+    <string name="btnAbs">Abs</string>
+    <string name="btnRnd">Rnd</string>
+    <string name="btnPermut">P(n,r)</string>
+    <string name="btnCombin">C(n,r)</string>
+    <string name="btnBackward">2 de 2</string>
+
+
+    <string name="title_activity_g_ecu_lin">Ecuaciones Lineales</string>
+    <string name="title_activity_g_21_est_alg">Estructuras Algebraicas</string>
+    <string name="title_activity_g_22_sis_lin">Sistemas Lineales</string>
+    <string name="title_activity_g_23_mat">Matrices</string>
+
+
+</resources>

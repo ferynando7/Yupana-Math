@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zoftcode.yupana.ListaFunciones">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.zoftcode.yupana.ListaFunciones"
+        tools:showIn="@layout/activity_lista_funciones">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="*"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/ibSisEcu"
+                        android:src="@drawable/sistecu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_column="0"
+                        android:background="#d2d2d2"
+                        android:scaleType="fitCenter"
+                        />
+
+
+                    <ImageButton
+                        android:id="@+id/ibEstad"
+                        android:src="@drawable/estadistica"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_column="1"
+                        android:background="#b6b6b6"
+                        android:scaleType="fitCenter"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/ibEvaPoli"
+                        android:src="@drawable/evpoli"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_column="0"
+                        android:background="#d2d2d2"
+                        android:scaleType="fitCenter"/>
+                    <ImageButton
+                        android:id="@+id/ibSolPoli"
+                        android:src="@drawable/solpoli"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_column="1"
+                        android:background="#b6b6b6"
+                        android:scaleType="fitCenter"
+                        />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    >
+                    <ImageButton
+                        android:id="@+id/ibCalcu"
+                        android:src="@drawable/calcu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_column="0"
+                        android:background="#b6b6b6"
+                        android:scaleType="fitCenter"
+                        />
+
+
+                    <ImageButton
+                        android:id="@+id/ibGuiaT"
+                        android:src="@drawable/guiateorica"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_column="1"
+                        android:background="#b6b6b6"
+                        android:scaleType="fitCenter"/>
+
+                </TableRow>
+
+
+                <!--
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/ibAyuda"
+                        android:src="@drawable/help"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_column="0"
+                        android:background="#b6b6b6"
+                        android:scaleType="fitCenter"
+                        />
+
+                </TableRow>
+
+-->
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
