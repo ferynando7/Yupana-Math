@@ -21,10 +21,9 @@
             android:name=".Splash"
             android:screenOrientation="portrait"
             android:theme="@style/MyThemeNoBar">
-            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -33,7 +32,6 @@
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/MyThemeNoBar">
-            >
         </activity>
         <activity
             android:name=".Help"
@@ -41,7 +39,6 @@
             android:screenOrientation="portrait"
             android:parentActivityName=".ListaFunciones"
             android:theme="@style/MyThemeNoBar">
-            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zoftcode.yupana.ListaFunciones" />
@@ -52,7 +49,6 @@
             android:screenOrientation="portrait"
             android:parentActivityName=".ListaFunciones"
             android:theme="@style/MyThemeNoBar">
-            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zoftcode.yupana.ListaFunciones" />

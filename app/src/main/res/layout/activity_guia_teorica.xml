@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zoftcode.yupana.GuiaTeorica">
+    tools:context="com.zoftcode.yupana.GuiaTeorica"
+    android:background="@mipmap/backguia">
 
 
     <android.support.design.widget.AppBarLayout
@@ -28,13 +29,13 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@mipmap/backguia"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context="com.zoftcode.yupana.EncontrarRaices"
-        tools:showIn="@layout/activity_guia_teorica">
+        tools:showIn="@layout/activity_guia_teorica"
+        android:layout_gravity="center">
 
         <ListView
             android:id="@+id/Opciones"

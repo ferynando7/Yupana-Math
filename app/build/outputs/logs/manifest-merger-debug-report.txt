@@ -1,299 +1,305 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-MERGED from [com.android.support:multidex:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/aa0a6bd06da1f1b6e15365be31ad0859/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/98e80470e25a605a58f41ea016a2bb1e/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a0df03a936dac8357589eb17411c587d/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+MERGED from [com.android.support:multidex:1.0.2] /home/fz/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/329d0861f2024afb2ad2626a8ca8c0b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/fz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/53b8fa9c832e85486d410d34c8444e7a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
 	package
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:3:5-34
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:1-135:12
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:1-131:12
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:5:5-133:19
-MERGED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/98e80470e25a605a58f41ea016a2bb1e/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/98e80470e25a605a58f41ea016a2bb1e/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:29:5-20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:5:5-129:19
+MERGED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/fz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/53b8fa9c832e85486d410d34c8444e7a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/fz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/53b8fa9c832e85486d410d34c8444e7a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:25:5-29:19
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:11:9-45
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:11:9-45
 	android:supportsRtl
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:7:9-37
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:7:9-37
 	android:allowBackup
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:12:9-44
 activity#com.zoftcode.yupana.EncontrarRaices
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:15:9-19:51
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:15:9-19:51
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:18:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:18:13-49
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:17:13-68
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:17:13-68
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:19:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:19:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:16:13-44
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:16:13-44
 activity#com.zoftcode.yupana.Splash
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:20:9-30:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:20:9-29:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:22:13-49
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:23:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:23:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:21:13-35
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:25:13-29:29
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:21:13-35
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:25:25-66
+action#android.intent.action.VIEW
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.zoftcode.yupana.ListaFunciones
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:31:9-37:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:30:9-35:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:33:13-49
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:33:13-29
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:32:13-29
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:35:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:34:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:32:13-43
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:31:13-43
 activity#com.zoftcode.yupana.Help
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:38:9-48:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:36:9-45:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:39:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:42:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:40:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:38:13-56
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:43:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:41:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:39:13-33
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:37:13-33
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:45:13-47:70
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:42:13-44:70
 	android:value
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:47:17-67
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:44:17-67
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:46:17-63
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:43:17-63
 activity#com.zoftcode.yupana.EvaluarPolinomio
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:49:9-59:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:46:9-55:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:52:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:49:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:53:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:50:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:51:13-69
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:48:13-69
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:54:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:51:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:50:13-45
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:47:13-45
 activity#com.zoftcode.yupana.calcuScreen
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:60:9-69:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:56:9-65:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:63:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:59:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:64:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:60:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:62:13-64
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:58:13-64
 	android:theme
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:65:13-48
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:61:13-48
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:61:13-40
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:57:13-40
 activity#com.zoftcode.yupana.SistemaEcuaciones
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:70:9-78:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:66:9-74:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:73:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:69:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:74:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:70:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:72:13-58
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:68:13-58
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:71:13-46
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:67:13-46
 activity#com.zoftcode.yupana.Estadistica
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:79:9-87:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:75:9-83:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:82:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:78:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:83:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:79:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:81:13-63
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:77:13-63
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:80:13-40
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:76:13-40
 activity#com.zoftcode.yupana.GuiaTeorica
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:88:9-96:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:84:9-92:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:91:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:87:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:92:13-57
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:88:13-57
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:90:13-64
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:86:13-64
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:89:13-40
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:85:13-40
 activity#com.zoftcode.yupana.gEcuLin
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:97:9-105:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:93:9-101:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:100:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:96:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:101:13-54
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:97:13-54
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:99:13-61
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:95:13-61
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:98:13-36
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:94:13-36
 activity#com.zoftcode.yupana.g_21EstAlg
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:106:9-114:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:102:9-110:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:109:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:105:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:110:13-50
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:106:13-50
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:108:13-64
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:104:13-64
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:107:13-39
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:103:13-39
 activity#com.zoftcode.yupana.g_22SisLin
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:115:9-123:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:111:9-119:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:118:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:114:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:119:13-50
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:115:13-50
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:117:13-64
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:113:13-64
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:116:13-39
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:112:13-39
 activity#com.zoftcode.yupana.g_23Mat
-ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:124:9-132:20
+ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:120:9-128:20
 	android:screenOrientation
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:127:13-49
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:123:13-49
 	android:parentActivityName
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:128:13-50
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:124:13-50
 	android:label
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:126:13-60
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:122:13-60
 	android:name
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml:125:13-36
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml:121:13-36
 uses-sdk
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:multidex:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/aa0a6bd06da1f1b6e15365be31ad0859/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/aa0a6bd06da1f1b6e15365be31ad0859/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/98e80470e25a605a58f41ea016a2bb1e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/98e80470e25a605a58f41ea016a2bb1e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a0df03a936dac8357589eb17411c587d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a0df03a936dac8357589eb17411c587d/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:21:5-23:58
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /home/fz/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/329d0861f2024afb2ad2626a8ca8c0b3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/fz/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/329d0861f2024afb2ad2626a8ca8c0b3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/fz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/53b8fa9c832e85486d410d34c8444e7a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/fz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/53b8fa9c832e85486d410d34c8444e7a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		ADDED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ferynando7/AndroidStudioProjects/Yupana/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		ADDED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fz/AndroidStudioProjects/Yupana-Math/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/47c38650930743d68ec58d493cbeb844/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/6175cccc9de64f2fae80c1b7c90057d2/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/bf3c2ce4b37a2f0acdd1a4585ae7192a/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a0df03a936dac8357589eb17411c587d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/a0df03a936dac8357589eb17411c587d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/6c7623af1091b121d20d942261a807f5/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/ea24d95db9e5ce4e605ee88361c0158e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/dfff53f7c0e12f0d662d33a6f44610a7/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/c74c884b461c4c05eb19d0a55f312865/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/02bf57a443ca16901d61a2ff8f40ca47/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d13be914df244b6d5582fd88a5fef686/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/67c8d127fd8a42d856be1d2fd6bed8ea/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/cbfa20b3097e0f4d67fa0348636edceb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/563959ae3cbcc7ac9e8f9706e820f44c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/7d70d18f63fa75c5cabe94b03992a9fb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/f16a091c131a2a1ed926fd07e5e77323/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/02059e619b6d31a92cd26fbb84db6f8c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2f41a239cd777ae7f5dd262f2d851abe/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/4ef1ab82641a68ca9617f6fb94d3e9a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/cac3fc8fbc34d35bfe8f4e0946d6d1f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/687df96e3e2aec329a0e52a5b606c76f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8ba3ac73ccfe69f9265250b07851e7d8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c472de2345e45962e5720903477cc35/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/ferynando7/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/9296930d47bcec65d6a5f73ef555727e/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.4.0] /home/fz/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/c3e52784397ff3a41707f52d7145b139/AndroidManifest.xml:27:13-51
